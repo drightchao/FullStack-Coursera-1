@@ -8,12 +8,6 @@
 	border-bottom: 1px solid black;
 }
 
-div.row{
-	height: 1000px;
-	margin-bottom: 30px;
-	background-color: lightblue;
-}
-
 .menu-subtitle {
 	text-decoration: "none";
 }
@@ -34,6 +28,12 @@ div.row{
 
 	.menu-header .menu-brand{
 		color: black;
+	}
+
+	div.row{
+		height: 1000px;
+		margin-bottom: 30px;
+		background-color: lightblue;
 	}
 }
 
@@ -65,5 +65,10 @@ div.row{
 
 	.menu-header{
 		padding: 10px;
+	}
+
+	div.row{
+		margin-bottom: 30px;
+		background-color: lightblue;
 	}
 }

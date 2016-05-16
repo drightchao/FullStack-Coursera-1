@@ -1,0 +1,69 @@
+.visible-xs .dropdown-menu-item{
+	background-color: white;
+	border-top: 1px solid black;
+}
+
+.navbar-section{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+div.row{
+	height: 1000px;
+	margin-bottom: 30px;
+	background-color: lightblue;
+}
+
+.menu-subtitle {
+	text-decoration: "none";
+}
+
+@media (min-width: 768px){
+	.menu-top{
+		background-color: lightblue;
+	}
+
+	.menu-content{
+		background-color: white;
+		padding: 0 30px 30px 30px;
+	}
+
+	.row div {		
+		padding: 10px;
+	}
+
+	.menu-header .menu-brand{
+		color: black;
+	}
+}
+
+@media (max-width: 767px){
+	.menu-top{
+		background-color: lightblue;
+	}
+
+	.menu-content{
+		background-color: white;
+		padding: 0 50px 50px 50px;
+	}
+
+	.row div {
+		background-color: lightblue;
+		padding: 20px;
+	}
+
+	#menu-items ul {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.menu-header .menu-brand{
+		color: black;
+		font-size: 1.8em;
+		margin-left: 10px;
+	}
+
+	.menu-header{
+		padding: 10px;
+	}
+}
